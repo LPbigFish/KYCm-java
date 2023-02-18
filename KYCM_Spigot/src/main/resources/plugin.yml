@@ -1,0 +1,7 @@
+name: KYCM
+version: '${project.version}'
+main: com.lpbigfish.kycm.Main
+api-version: 1.18
+load: STARTUP
+authors: [ LPbigFish ]
+description: A KYC plugin for spigot and everything, that is built on spigot
