@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Spigot/KYCM.iml" filepath="$PROJECT_DIR$/Spigot/KYCM.iml" />
       <module fileurl="file://$PROJECT_DIR$/Velocity/KYCM (1).iml" filepath="$PROJECT_DIR$/Velocity/KYCM (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/KYCM_Spigot/KYCM_Spigot.iml" filepath="$PROJECT_DIR$/KYCM_Spigot/KYCM_Spigot.iml" />
       <module fileurl="file://$PROJECT_DIR$/KYCM_Velocity/KYCM_Velocity.iml" filepath="$PROJECT_DIR$/KYCM_Velocity/KYCM_Velocity.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/KYCm-java.iml" filepath="$PROJECT_DIR$/.idea/KYCm-java.iml" />
     </modules>

@@ -1,9 +1,12 @@
 package com.lpbigfish.kycm;
 
 import com.google.inject.Inject;
+import com.velocitypowered.api.event.connection.PluginMessageEvent;
 import com.velocitypowered.api.event.proxy.ProxyInitializeEvent;
 import com.velocitypowered.api.event.Subscribe;
 import com.velocitypowered.api.plugin.Plugin;
+import com.velocitypowered.api.proxy.messages.ChannelIdentifier;
+import com.velocitypowered.api.proxy.messages.ChannelMessageSource;
 import org.slf4j.Logger;
 
 @Plugin(
@@ -20,5 +23,11 @@ public class Main {
 
     @Subscribe
     public void onProxyInitialization(ProxyInitializeEvent event) {
+
+    }
+
+    @Subscribe
+    public void onMessageReceived(PluginMessageEvent event) {
+
     }
 }

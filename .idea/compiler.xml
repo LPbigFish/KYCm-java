@@ -7,12 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="KYCM_Velocity" />
-        <module name="KYCM" />
+        <module name="KYCM_Spigot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="KYCM" target="1.8" />
       <module name="KYCM (1)" target="11" />
+      <module name="KYCM_Spigot" target="1.8" />
       <module name="KYCM_Velocity" target="11" />
     </bytecodeTargetLevel>
   </component>
